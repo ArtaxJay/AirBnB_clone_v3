@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" This is the package file for this dir. """
+"""
+__init__ naming convention makes this file the package file for this dir.
+"""
 
 from flask import Blueprint
 from api.v1.views.index import *
